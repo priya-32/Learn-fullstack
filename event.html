@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Going to create a website</h1>
+</head>
+<body>
+    <a href="https://www.google.com">Google</a>
+    <img src = "https://p0.pxfuel.com/preview/304/326/570/red-naomi-red-rose-rose-red.jpg"/>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <iframe src = "https://www.imdb.com/title/tt15135188/"></iframe>
+    <hr>
+    <abbr>aiml</abbr>
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <br>
+    <b>hi</b>
+    <hr>
+    <button>click me</button>
+    <br>
+    <caption>hiii</caption>
+    <br>
+    <data>123</data>
+    <dl>description</dl>
+    <dt>description</dt>
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <br>
+        <input type="button" value = "Button"><br>
+        <input type="checkbox" value="checkbox"><br>
+        <input type="color" value="color"><br>
+        <input type = "date" value="date"><br>
+        <input type = "datetime" value="datetime"><br>
+        <input type="datetime-local" value="datetime-local"><br>
+        <input type="email" value="email"><br>
+        <input type="file" value="file"><br>
+        <input type = "hidden" value="hidden"><br>
+        <input type = "image" src="https://p0.pxfuel.com/preview/304/326/570/red-naomi-red-rose-rose-red.jpg"><br><br>
+        <input type="month"><br>
+        <input type="number"><br>
+        <input type="password"><br>
+        <input type="radio"><br><br><br><br>
+        <input type="range"><br>
+        <input type="reset"><br><br><br><br>
+        <input type="search"><br>
+        <input type="submit"><br>
+        <input type="tel"><br>
+        <input type="time"><br>
+        <input type="text"><br>
+        <input type="url"><br>
+        <input type="week"><br><br><br>
+      </form>
+      <canvas id="myCanvas" width="300" height="150" style="border:1px solid rgb(79, 15, 181)"></canvas>
+      <button onclick="playVid()" type="button">Play video</button>
+      <button onclick="pauseVid()" type="button">Pause Video</button><br>
+      <video id="myVideo" width="320" height="176">
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML5 video.
+      </video>
+
+      </body>
+      <script>
+        const myCanvas = document.getElementById("myCanvas");
+        const ctx = myCanvas.getContext("2d");
+        ctx.fillStyle = "yellow";
+        ctx.fillRect(20, 20, 150, 100);
+        let vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+} 
+        </script>
+        </html>
